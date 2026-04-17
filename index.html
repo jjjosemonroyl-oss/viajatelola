@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaja Telo La - Reserva de Millas de Vuelo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        form { max-width: 400px; margin: auto; }
+        label { display: block; margin-top: 10px; }
+        input, button { width: 100%; padding: 8px; margin-top: 5px; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Plataforma de Reserva de Millas de Vuelo</h1>
+    <p>Reserva tus millas para vuelos de manera fácil y rápida.</p>
+    <form>
+        <label for="origen">Origen:</label>
+        <input type="text" id="origen" name="origen" required>
+
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required>
+
+        <label for="millas">Millas disponibles:</label>
+        <input type="number" id="millas" name="millas" required>
+
+        <label for="fecha">Fecha de vuelo:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <button type="submit">Reservar</button>
+    </form>
+</body>
+</html>
